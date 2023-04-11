@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.container{
+    width: 1120px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+	justify-content: space-around;
+    background: #f8f4eb;
+}
+
+
+.body1 img{
+    display: flex;
+    width: 554px;
+    height: 700px;
+
+}
+
+.wrap{
+    display: flex;
+    width: 554px;
+    height: 700px;
+    background: #f8f4eb;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.title h1{
+    color: gray;
+    margin-bottom: 60px;
+}
+
+.word{
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 20px;   
+}
+
+.ig{
+    margin-top: 60px
+
+}
+
+.ig img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding-top: 60px;
+    
+}
+
+.ig p{
+    margin-top: 5px;
+    font-size: 20px;
+}
